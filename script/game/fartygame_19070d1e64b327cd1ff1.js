@@ -916,7 +916,7 @@
 
 									this.deactivateTemplates(ObstacleTemplate);
 									this.sounds.fall.play();
-                                    window.location.href="objc://"+"gameOver:/0"; //by decamincow
+                                    // window.location.href="objc://"+"gameOver:/0"; //by decamincow
 								}
 								this.player.airborne = false;
 
