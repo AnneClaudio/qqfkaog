@@ -36,6 +36,11 @@
             }
         </style>
 <!--        <script language="javascript" type="text/javascript" src="ShareUtils.js"></script>-->
+<script type="text/javascript">
+    function didLoad() {
+        window.location.href="weiyou://didLoad"  // by decamincow
+    }
+</script>
         <script type="text/javascript">
     
             window.shareData = {
@@ -131,7 +136,7 @@ EgretShare.setShareData(window.shareData.tTitle, window.shareData.tContent, wind
 
 
     </head>
-    <body>
+    <body onLoad="didLoad()">
         <div id=share style="display: none">
             <img width=100% src="share.png"
                 style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
